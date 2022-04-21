@@ -7,8 +7,13 @@ Logitech C270 webcam
 Japanese Mahjong Tiles
 
 ## Setup
+First, you need [jetson-inference](https://github.com/dusty-nv/jetson-inference) to run this program.
+/n
+Clone this project from Github repository.
+```
 
-### Step 1
+```
+
 
 ```
 cd jetson-inference/
