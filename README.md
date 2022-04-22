@@ -1,5 +1,5 @@
 # Shanten Calculator
-あ
+Realtime Mahjong detection that calculate
 
 ## Requirement
 Jetson Nano
