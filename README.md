@@ -28,3 +28,7 @@ Run Shanten calculator
 ```
 python3 /shanten-cal/shanten.py /dev/video1 --input-width=800 --input-height=600
 ```
+
+## Reference
+- [jetson-inference](https://github.com/dusty-nv/jetson-inference)
+- [Mahjon library](https://pypi.org/project/mahjong/)
