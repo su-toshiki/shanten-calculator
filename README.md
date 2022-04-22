@@ -11,7 +11,7 @@ First, you need [jetson-inference](https://github.com/dusty-nv/jetson-inference)
 /n
 Clone this project from Github repository.
 ```
-
+git clone --recursive https://github.com/su-toshiki/shanten-calculator
 ```
 
 
