@@ -1,10 +1,10 @@
 # Shanten Calculator
-Realtime Mahjong detection that calculate
+Realtime Mahjong detection that calculate shanten number. This program follows Japanese Mahjong.
 
 ## Requirement
-Jetson Nano
-Logitech C270 webcam
-Japanese Mahjong Tiles
+- Jetson Nano
+- Logitech C270 webcam
+- Japanese Mahjong Tiles
 
 ## Setup
 First, you need [jetson-inference](https://github.com/dusty-nv/jetson-inference) to run this program.
