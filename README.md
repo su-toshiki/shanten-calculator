@@ -10,6 +10,9 @@ Realtime Mahjong tiles detection that calculate shanten number. This program fol
 
 ## Setup and running
 First, you need [jetson-inference](https://github.com/dusty-nv/jetson-inference) to run this program.
+- [Setting up Jetson with JetPack](https://github.com/dusty-nv/jetson-inference/blob/master/docs/jetpack-setup-2.md)
+- [Running the Docker Container](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-docker.md)
+<br>
 
 Clone this project from Github repository.
 ```
