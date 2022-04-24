@@ -1,5 +1,5 @@
 # Shanten Calculator
-Realtime Mahjong tiles detection that calculate shanten number. This program follows Japanese Riichi Mahjong.
+Realtime Mahjong tiles detection that calculate shanten number. This program follows Japanese Riichi Mahjong. Calculated shanten number is overlayed on the screen status bar.
 
 ![m1](https://user-images.githubusercontent.com/99862948/164970473-5da6577a-6351-48af-9ec0-2c290ec3dd90.gif)
 
@@ -8,7 +8,7 @@ Realtime Mahjong tiles detection that calculate shanten number. This program fol
 - Logitech C270 webcam
 - Japanese Mahjong Tiles
 
-## Setup
+## Setup and running
 First, you need [jetson-inference](https://github.com/dusty-nv/jetson-inference) to run this program.
 
 Clone this project from Github repository.
@@ -26,11 +26,13 @@ Install [Mahjon library](https://pypi.org/project/mahjong/)
 ```
 pip install mahjong
 ```
-Run Shanten calculator
+Run Shanten calculator (If you want to use different stream, please refer [here](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md) for details)
 ```
 python3 /shanten-cal/shanten.py /dev/video0
 ```
 
+## Video
+https://www.youtube.com/watch?v=Z_BkeLmYosM
 
 ## Reference
 - [jetson-inference](https://github.com/dusty-nv/jetson-inference)
