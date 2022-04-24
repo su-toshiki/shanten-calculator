@@ -29,7 +29,7 @@ Install [Mahjon library](https://pypi.org/project/mahjong/)
 ```
 pip install mahjong
 ```
-Run Shanten calculator (If you want to use different stream, please refer [here](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md) for details)
+Run Shanten calculator (If you want to use different stream, please refer to [here](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md) for details)
 ```
 python3 /shanten-cal/shanten.py /dev/video0
 ```
