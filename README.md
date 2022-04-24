@@ -1,5 +1,5 @@
 # Shanten Calculator
-Realtime Mahjong tiles detection that calculate shanten number. This program follows Japanese Riichi Mahjong. Calculated shanten number is overlayed on the screen status bar.
+Realtime Mahjong tiles detector that calculate shanten number. This program follows Japanese Riichi Mahjong. Calculated shanten number is overlayed on the screen status bar.
 
 ![m1](https://user-images.githubusercontent.com/99862948/164970473-5da6577a-6351-48af-9ec0-2c290ec3dd90.gif)
 
