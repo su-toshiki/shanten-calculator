@@ -1,5 +1,7 @@
 # Shanten Calculator
-Realtime Mahjong detection that calculate shanten number. This program follows Japanese Mahjong.
+Realtime Mahjong tiles detection that calculate shanten number. This program follows Japanese Riichi Mahjong.
+
+![m1](https://user-images.githubusercontent.com/99862948/164970473-5da6577a-6351-48af-9ec0-2c290ec3dd90.gif)
 
 ## Requirement
 - Jetson Nano
@@ -14,7 +16,7 @@ Clone this project from Github repository.
 git clone --recursive https://github.com/su-toshiki/shanten-calculator
 ```
 
-Mount and run container
+Mount and run the container
 ```
 cd jetson-inference/
 docker/run.sh --volume ~/shanten-calculator:/shanten-calculator
@@ -26,8 +28,9 @@ pip install mahjong
 ```
 Run Shanten calculator
 ```
-python3 /shanten-cal/shanten.py /dev/video1 --input-width=800 --input-height=600
+python3 /shanten-cal/shanten.py /dev/video0
 ```
+
 
 ## Reference
 - [jetson-inference](https://github.com/dusty-nv/jetson-inference)
